@@ -17,7 +17,7 @@ int main()
 {
     // alias for static function Registrar::singleton
     auto system = &Registrar::singleton;
-
+hello
     system().initialize();
 
     // Simulate some students erolls in some courses
