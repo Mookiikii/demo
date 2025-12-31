@@ -19,6 +19,9 @@ int main()
     auto sys = &Registrar::singleton;
 
     sys().initialize();
+    auto sys = &Registrar::singleton;
+
+    sys().initialize();
 
     // Simulate some students erolls in some courses
     sys().studentEnrollsInCourse("S001", "CS101");
